@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "index.js"
+      }
+    ],
+    "env": {
+      "PORT": "8080",
+      "MONGO_URI": "mongodb+srv://mohsindatamongodb:1rwpNkUt1e6Hf9WO@mohsin-cluster.mlkm7.mongodb.net/contacts"
+    }
+  }
+  
