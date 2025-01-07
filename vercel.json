@@ -11,5 +11,8 @@
       "src": "/(.*)",
       "dest": "/index.js"
     }
-  ]
+  ],
+  ".env": {
+    "mongoDB_URI": "mongodb+srv://mohsindatamongodb:1rwpNkUt1e6Hf9WO@mohsin-cluster.mlkm7.mongodb.net/contacts"
+  }
 }
